@@ -1,0 +1,9 @@
+name: ${project.name}
+version: ${project.version}
+main: ${project.groupId}.FirstDeathPlugin
+softdepend: [Vault, TokenManager, PlaceholderAPI]
+authors: [Wertik1206]
+commands:
+  firstdeathrewards:
+    description: Main plugin command
+    aliases: [fd, fdr, firstdeath]

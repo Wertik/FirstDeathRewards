@@ -1,0 +1,28 @@
+# Configuration for ${project.name}
+#
+# Version: $[project.version}
+
+plugin-prefix: '&cFirst Death &8>> '
+debug-enabled: true
+
+# Automatic saving
+auto-save:
+  enabled: true
+  # in seconds
+  interval: 300
+
+# Where the plugin won't work.
+disabled-worlds:
+  - event_shit_world
+
+# Keep inventory and exp on fist death?
+keep-inventory: true
+keep-exp: true
+
+# Rewards given to player upon death
+rewards:
+  inform:
+    - "&7You died. You're incompetent. Basically useless when the only purpose was to &2&osurvive&7... "
+    - "&7But we'll give you one more chance... just so you know we're the &e&onice guys &7here."
+    - "&7Now live and &c&odon't die &7again you &e&odipshit."
+  # commands, inform, broadcast, items, tokens, money
