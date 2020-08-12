@@ -19,6 +19,9 @@ disabled-worlds:
 keep-inventory: true
 keep-exp: true
 
+# Deny item and exp drops?
+deny-drops: true
+
 # Rewards given to player upon death
 rewards:
   inform:
