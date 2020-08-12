@@ -12,7 +12,7 @@ public class FirstDeathCommand extends MainCommand {
 
     @Override
     protected CommandResult perform(CommandSender sender, String label, String[] args) {
-        return CommandResult.SUCCESS;
+        return super.perform(sender, label, args);
     }
 
     @Override
