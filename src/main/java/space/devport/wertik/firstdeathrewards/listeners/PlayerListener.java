@@ -25,6 +25,8 @@ public class PlayerListener implements Listener {
         event.setKeepInventory(plugin.getConfig().getBoolean("keep-inventory", false));
         event.setKeepLevel(plugin.getConfig().getBoolean("keep-exp", false));
 
+        event.getDrops().clear();
+
         plugin.getDataManager().getReward().give(player);
     }
 }
