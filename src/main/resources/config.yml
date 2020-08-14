@@ -3,7 +3,7 @@
 # Version: $[project.version}
 
 plugin-prefix: '&cFirst Death &8>> '
-debug-enabled: true
+debug-enabled: false
 
 # Automatic saving
 auto-save:
@@ -13,7 +13,7 @@ auto-save:
 
 # Where the plugin won't work.
 disabled-worlds:
-  - event_shit_world
+  - some_random_world
 
 # Keep inventory and exp on fist death?
 keep-inventory: true
@@ -28,4 +28,22 @@ rewards:
     - "&7You died. You're incompetent. Basically useless when the only purpose was to &2&osurvive&7... "
     - "&7But we'll give you one more chance... just so you know we're the &e&onice guys &7here."
     - "&7Now live and &c&odon't die &7again you &e&odipshit."
-  # commands, inform, broadcast, items, tokens, money
+  # Add prefix p! to run a command for player.
+  # op! to run command for player with OP
+  # Add prefix rand! to multiple commands to pick one of them.
+  #commands:
+    #- 'say Run a command!'
+    #- 'p! say I died lol.'
+  broadcast:
+    - "&f%player% &7died for the first time, what a loser."
+  # Vault money
+  #money: 100
+  # TokenManager tokens
+  #tokens: 10
+  # Items
+  #items:
+    #type: DIAMOND
+    #name: '&3Little diamond'
+    #lore:
+      #- '&7Given to &f%player% &7for his first death.'
+    #glow: false
