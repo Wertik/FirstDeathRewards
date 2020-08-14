@@ -46,7 +46,7 @@ rewards:
 ```
 ^^ This would either run a say command for the player with content `I died.`, **OR** run a say command by console with `say %player% died.`.
 
-* **...with messages:**
+* **...with messages:**\
 `inform` sends a message to the player.
 ```yaml
 rewards:
@@ -61,8 +61,9 @@ rewards:
     - '&f%player% &7died for the first time.'
 ```
 
-* **...with some common currencies:**
-`money` gives the player Vault economy. `tokens` gives the player TokenManager tokens.
+* **...with some common currencies:**\
+`money` gives the player Vault economy.\
+`tokens` gives the player TokenManager tokens.
 ```yaml
 rewards:
   money: 1000
@@ -98,6 +99,6 @@ rewards:
 `enchants` - Enchantments with levels\
 `flags` - Item Flags (HIDE_ATTRIBUTES, HIDE_ENCHANTS)\
 `glow` - Item glow, adds LUCK enchantment and HIDE_ATTRIBUTES flag to make the item glow\
-`nbt` - NBT data\
+`nbt` - NBT data
 
 Both lore and name support coler codes and the `%player%` placeholder.
