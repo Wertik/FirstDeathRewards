@@ -44,9 +44,10 @@ rewards:
     - 'rand! p! say I died.'
     - 'rand! say %player% died.'
 ```
-^^ This would either run a say command for the player with content `I died.`, **OR** run a say command by console with `say %player% died.`.
+^^ This would either run a say command for the player with content `I died.` **OR** run a say command by console with `say %player% died.`.
 
-* **...with messages:**\
+* **...with messages:**
+
 `inform` sends a message to the player.
 ```yaml
 rewards:
@@ -61,7 +62,8 @@ rewards:
     - '&f%player% &7died for the first time.'
 ```
 
-* **...with some common currencies:**\
+* **...with some common currencies:**
+
 `money` gives the player Vault economy.\
 `tokens` gives the player TokenManager tokens.
 ```yaml
@@ -69,6 +71,8 @@ rewards:
   money: 1000
   tokens: 10
 ```
+
+*Note that this can also be done with commands. But when using the money reward you don't have to rewrite commands when changing Economy providers for Vault. (ex.: switching from Essentials economy to CMI)*
 
 * **...with items:**
 ```yaml
