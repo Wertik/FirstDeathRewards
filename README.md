@@ -109,5 +109,5 @@ Both lore and name support coler codes and the `%player%` placeholder.
 
 ## Help
 
-You can find me (Wertík/qwz) on [this empy discord server](https://discord.gg/zppyUBX).\
+You can find me (Wertík/qwz) on [this empy discord server](https://discord.gg/5Suw58j).\
 Tag me with any issues or feature requests.
